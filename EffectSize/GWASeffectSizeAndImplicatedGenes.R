@@ -10,9 +10,10 @@
 # Plot were generated with R version 4.5.2 (2025-10-31) -- "[Not] Part in a Rumble"
 
 # Load required packages
-library(tidyverse)
-library(patchwork)
-library(grid)
+library(ggplot) #v4.0.2
+library(tidyverse) #v2.2.0
+library(patchwork) #v1.3.2
+library(grid) #v4.5.2
 
 dat <- read.table("EffectSizes_PlusGenes.txt", header = TRUE, sep = "\t")
 
